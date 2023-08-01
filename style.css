@@ -67,6 +67,7 @@ a, .description > p, .awesome > .head-image {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: -8px;
 }
 
 .description {
@@ -74,6 +75,7 @@ a, .description > p, .awesome > .head-image {
   flex-direction: column;
   justify-content: center;
   max-width: 400px;
+  flex-wrap: wrap;
 }
 
 .random {
@@ -108,10 +110,42 @@ a, .description > p, .awesome > .head-image {
 .random-information {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .fact > p, p > a {
   font-size: 18px;
   color: black;
   text-align: center;
+}
+
+.quote-container,.quote {
+  background-color: #E5E7EB ;
+  padding: 50px;
+  display: flex;
+  margin: -8px;
+  justify-content: center;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.text {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1F2937;
+  margin-bottom: -40px;
+  align-self: center;
+}
+
+.credit > p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.credit {
+  margin-left: auto;
 }
